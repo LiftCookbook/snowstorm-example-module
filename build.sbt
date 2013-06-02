@@ -13,7 +13,7 @@ resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositori
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
 libraryDependencies ++= {
-  val liftVersion = "2.5-M3"
+  val liftVersion = "2.5"
   Seq(
     "net.liftweb"       %% "lift-webkit"        % liftVersion        % "compile"
   )
